@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/aioesopg/itmingo.com/
+    - /bin/cp * $DEPLOYPATH
+
